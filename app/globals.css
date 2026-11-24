@@ -1,11 +1,7 @@
+@import "tailwindcss";
 :root {
 
-  .btw {
-
-  font-size: 30px;
-
-  }
-.title {
+  .title {
   color :rgb(95, 8, 146);
   font-size: 90px;
   text-align: center;
@@ -76,14 +72,12 @@ div {
     display: flex;
 }
 .flexbox {
-
     display: flex;
     justify-content: space-between;
-  
 }
 
 .body {
-  background-image: url("pics/background.png");
+  background-image: url("/pics/background.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -154,7 +148,7 @@ border-radius: 20px;
  height: 70px;
  width: 190px;
  display: flex;
- background-image: url(pics/download.png);
+ background-image: url(/pics/download.png);
     justify-content: center;
     align-items: center;
 
