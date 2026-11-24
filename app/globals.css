@@ -70,10 +70,12 @@ div {
     padding: 10px;
     border-radius: 5px;
     display: flex;
+    max-height: max-content;
 }
 .flexbox {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .body {

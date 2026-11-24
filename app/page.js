@@ -23,15 +23,17 @@ export default function HomePage() {
           </div>
 
           <br />
-          
         </div>
-<a className="decoration-transparent inline-block transition-transform text-[rgb(95,8,146)] text-8xl align-text-center m-auto" href="#home">
-            dustePB
-          </a>
+        <a
+          className="decoration-transparent inline-block transition-transform text-[rgb(95,8,146)] text-8xl align-text-center m-auto"
+          href="#home"
+        >
+          dustePB
+        </a>
         <div>presents, my portfolio!</div>
       </div>
       <hr />
-      <div className="body align-text-center" >
+      <div className="body align-text-center">
         <br /> <br />
         <div className="flex justify-between p-12.5">
           <div>
@@ -51,8 +53,8 @@ export default function HomePage() {
               I'm a 16 year-old student majoring in math~! I live in
               <span className="text-red-600"> IRAN</span> but
               <br /> I'm ethnically
-              <span className="text-blue-500"> KAZAKH.</span><br/>I have a
-              <span className="text-red-600"> FUMO</span> btw btw.
+              <span className="text-blue-500"> KAZAKH.</span>
+              <br />I have a<span className="text-red-600"> FUMO</span> btw btw.
               <br /> I am also making a manga called periodic days.
               <br /> And developing a game called project 001.
               <br /> But im no pro coder, just your avg person ♥️
@@ -64,8 +66,9 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="fastfetch">
-            <pre>{`
+          <div className="fastfetch text-center">
+            <pre className="max-h-fit">
+              {`
 duste@archlinux
 ---------------
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⡠⠤⡀
@@ -92,23 +95,19 @@ Memory: 6 GB`}
       </div>
 
       <div>
-        {" "}
-        <hr />
         <div
-          className="text-blue-600 m-auto text-center text-6xl"
+          className="text-blue-600 mt-8 mb-8 m-auto text-center text-6xl"
           id="on_projects"
         >
           on going projects.
         </div>
-        <br />
-        <hr />
       </div>
       <div className="body text-center">
         <div className="flex justify-between">
           <div className="m-auto">
             <a
               className="projectbox"
-              style={{ backgroundImage: "url(pics/unselectedperiodic.png)"}}
+              style={{ backgroundImage: "url(pics/unselectedperiodic.png)" }}
               href="index2.html"
             >
               {" "}
@@ -118,10 +117,10 @@ Memory: 6 GB`}
               periodic days
             </a>
           </div>
-          <div style={{margin: "auto"}}>
+          <div style={{ margin: "auto" }}>
             <a
               className="projectbox"
-              style={{ backgroundImage: "url(pics/unselected001.png)"}}
+              style={{ backgroundImage: "url(pics/unselected001.png)" }}
             >
               {" "}
             </a>
@@ -129,25 +128,18 @@ Memory: 6 GB`}
           </div>
         </div>
       </div>
-      <div style={{backgroundColor: "rgba(252, 198, 255, 0.3)"}}>
-        {" "}
-        <hr />
-        <div
-          id="fin_projects"
-
-          className="text-blue-600 m-auto text-center text-6xl"
-        >
-          finished projects.
-        </div>
-        <br />
-        <hr />
+      <div
+        id="fin_projects"
+        className="text-blue-600 mt-8 mb-8 m-auto text-center text-6xl"
+      >
+        finished projects.
       </div>
-      <div className="body" style={{textAlign: "center"}}>
+      <div className="body text-center">
         <div className="flexbox">
-          <div style={{margin: "auto"}}>
+          <div style={{ margin: "auto" }}>
             <a
               className="projectbox"
-              style={{ backgroundImage: "url(pics/placeholder.jpg)"}}
+              style={{ backgroundImage: "url(pics/placeholder.jpg)" }}
               href="index2.html"
             >
               {" "}
@@ -157,10 +149,10 @@ Memory: 6 GB`}
               ???
             </a>
           </div>
-          <div style={{margin: "auto"}}>
+          <div style={{ margin: "auto" }}>
             <a
               className="projectbox"
-              style={{ backgroundImage: "url(pics/unselectedgame.png)"}}
+              style={{ backgroundImage: "url(pics/unselectedgame.png)" }}
               href="index_game.html"
             >
               {" "}
@@ -168,10 +160,10 @@ Memory: 6 GB`}
             <div className="smallname"> games</div>
           </div>
 
-          <div style={{margin: "auto"}}>
+          <div style={{ margin: "auto" }}>
             <a
               className="projectbox"
-              style={{ backgroundImage: "url(pics/unselectedart.png)"}}
+              style={{ backgroundImage: "url(pics/unselectedart.png)" }}
             >
               {" "}
             </a>
@@ -180,53 +172,45 @@ Memory: 6 GB`}
         </div>
       </div>
 
-      <div style={{backgroundColor: "rgba(252, 198, 255, 0.3)"}}>
-        {" "}
-        <hr />
-        <div
-          className="text-blue-600 m-auto text-center text-6xl"
-        >
-          intrests.
-        </div>
-        <br />
-        <hr />
+      <div className="text-blue-600 mt-8 mb-8 m-auto text-center text-6xl">
+        intrests.
       </div>
-      <div className="body" style={{textAlign: "center"}}>
+      <div className="body text-center">
         <div className="flexbox">
-          <div style={{margin: "auto"}}>
+          <div style={{ margin: "auto" }}>
             <a
               className="projectbox"
-              style={{ backgroundImage: "url(pics/shows.png)"}}
+              style={{ backgroundImage: "url(pics/shows.png)" }}
               href="index_shows.html"
             >
               {" "}
             </a>
             <a className="smallname">shows</a>
           </div>
-          <div style={{margin: "auto"}}>
+          <div style={{ margin: "auto" }}>
             <a
               className="projectbox"
-              style={{ backgroundImage: "url(pics/history.png)"}}
+              style={{ backgroundImage: "url(pics/history.png)" }}
               href="indexhistory.html"
             >
               {" "}
             </a>
             <div className="smallname">history</div>
           </div>
-          <div style={{margin: "auto"}}>
+          <div style={{ margin: "auto" }}>
             <a
               className="projectbox"
-              style={{ backgroundImage: "url(pics/songs.png)"}}
+              style={{ backgroundImage: "url(pics/songs.png)" }}
               href="indexmv.html"
             >
               {" "}
             </a>
             <div className="smallname">songs</div>
           </div>
-          <div style={{margin: "auto"}}>
+          <div className="m-auto">
             <a
               className="projectbox"
-              style={{ backgroundImage: "url(pics/games.jpg)"}}
+              style={{ backgroundImage: "url(pics/games.jpg)" }}
               href="indexgame.html"
             >
               {" "}
@@ -240,13 +224,17 @@ Memory: 6 GB`}
       </div>
 
       <div>
-        <div style={{textAlign: "center"}} className="body">
-          <a target="_blank" href="https://hoogmeh.touhou.ir" className="mainlink">
+        <div className="body text-center">
+          <a
+            target="_blank"
+            href="https://hoogmeh.touhou.ir"
+            className="mainlink"
+          >
             also check out my friend
           </a>
         </div>
       </div>
-      <footer>
+      <footer className="m-auto w-fit">
         <div>© 2026 dustePB</div>
         <div>Made with love</div>
       </footer>
