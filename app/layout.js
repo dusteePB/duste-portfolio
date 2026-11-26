@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body style={{ backgroundImage: "url(pics/sparkles.gif)" }}>
+      <body style={{ backgroundImage: "url(/pics/sparkles.gif)" }}>
         <div className="text-center">
           <div className="flex justify-between">
             <div>
