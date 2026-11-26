@@ -1,38 +1,6 @@
 export default function HomePage() {
   return (
     <>
-      <div className="text-center">
-        <div className="flex justify-between">
-          <div>
-            <a className="smalllink" href="#about_me">
-              {" "}
-              about me{" "}
-            </a>
-            <a className="smalllink" href="#on_projects">
-              {" "}
-              my ongoing projects{" "}
-            </a>
-            <a className="smalllink" href="#fin_projects">
-              {" "}
-              my finished projects{" "}
-            </a>
-            <a className="smalllink" href="#contact">
-              {" "}
-              contact me{" "}
-            </a>
-          </div>
-
-          <br />
-        </div>
-        <a
-          className="decoration-transparent inline-block transition-transform text-[rgb(95,8,146)] text-8xl align-text-center m-auto"
-          href="#home"
-        >
-          dustePB
-        </a>
-        <div>presents, my portfolio!</div>
-      </div>
-      <hr />
       <div className="body align-text-center">
         <br /> <br />
         <div className="flex justify-between p-12.5">
@@ -95,6 +63,7 @@ Memory: 6 GB`}
       </div>
 
       <div>
+      <hr/>
         <div
           className="text-blue-600 mt-8 mb-8 m-auto text-center text-6xl"
           id="on_projects"
@@ -102,6 +71,7 @@ Memory: 6 GB`}
           on going projects.
         </div>
       </div>
+      <hr/>
       <div className="body text-center">
         <div className="flex justify-between">
           <div className="m-auto">
@@ -128,12 +98,14 @@ Memory: 6 GB`}
           </div>
         </div>
       </div>
+      <hr/>
       <div
         id="fin_projects"
         className="text-blue-600 mt-8 mb-8 m-auto text-center text-6xl"
       >
         finished projects.
       </div>
+      <hr/>
       <div className="body text-center">
         <div className="flexbox">
           <div style={{ margin: "auto" }}>
@@ -171,17 +143,20 @@ Memory: 6 GB`}
           </div>
         </div>
       </div>
+      <hr/>
 
       <div className="text-blue-600 mt-8 mb-8 m-auto text-center text-6xl">
         intrests.
       </div>
+
+      <hr/>
       <div className="body text-center">
         <div className="flexbox">
           <div style={{ margin: "auto" }}>
             <a
               className="projectbox"
               style={{ backgroundImage: "url(pics/shows.png)" }}
-              href="index_shows.html"
+              href="/shows"
             >
               {" "}
             </a>
@@ -234,10 +209,8 @@ Memory: 6 GB`}
           </a>
         </div>
       </div>
-      <footer className="m-auto w-fit">
-        <div>© 2026 dustePB</div>
-        <div>Made with love</div>
-      </footer>
+
+      <hr/>
     </>
   );
 }
